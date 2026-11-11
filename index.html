@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+<link rel="stylesheet" href="style.css">
+
 <body>
     <header>
         <h1>About me project</h1>
-        <p>A simple personal website built with HTML to introduce myself, share my skills and interests, and provide contact information.</p>
-        <nav>
+        <nav class="nav-bar">
             <a href="#short-bio">A short bio</a>
             <a href="#photo">A photo</a>
             <a href="#list-of-hobbies">A list of hobbies</a>
@@ -19,14 +25,17 @@
     <main>
         <section id="short-bio">
             <h2>short bio</h2>
-            <p>Hello! I'm Btissam, a healthcare professional, an artist, and a curious learner who loves exploring new fields.
-I have six years of experience in nursing, specializing in anesthesia and intensive care. Beyond my medical career, I am passionate about art, creativity, technology, and personal development.
-Currently, I'm learning web development, starting with HTML. My goal is to develop my technical skills and eventually build my own creative projects and websites.
-In my free time, I enjoy painting, running, reading, and discovering new ideas.</p>
+            <p>Hello! I'm Btissam, a healthcare professional, an artist, and a curious learner who loves exploring new
+                fields.
+                I have six years of experience in nursing, specializing in anesthesia and intensive care. Beyond my
+                medical career, I am passionate about art, creativity, technology, and personal development.
+                Currently, I'm learning web development, starting with HTML. My goal is to develop my technical skills
+                and eventually build my own creative projects and websites.
+                In my free time, I enjoy painting, running, reading, and discovering new ideas.</p>
         </section>
         <section id="photo">
             <h2>photo</h2>
-            <img src="web-images.jpeg" alt="my photo celebrating casa marathon">
+            <img src="images/web-images.jpeg" alt="my photo celebrating casa marathon">
         </section>
         <section id="list-of-hobbies">
             <h2>list of hobbies</h2>
@@ -43,34 +52,34 @@ In my free time, I enjoy painting, running, reading, and discovering new ideas.<
             <h2>weekly schedule</h2>
             <p>Here is a sample of my weekly schedule:</p>
             <table>
-                    <tr>
-                        <td>Monday</td>
-                        <td>Work, painting, and reading</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>Work, running, and baking</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td>Work, drawing, and personal development</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>Work, painting, and reading</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>Work, running, and socializing with friends</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>Personal projects, art exhibitions, and outdoor activities</td>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>Relaxation, family time, and self-care activities</td>
-                    </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Work, painting, and reading</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Work, running, and baking</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Work, drawing, and personal development</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Work, painting, and reading</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Work, running, and socializing with friends</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Personal projects, art exhibitions, and outdoor activities</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Relaxation, family time, and self-care activities</td>
+                </tr>
             </table>
         </section>
     </main>
@@ -83,10 +92,11 @@ In my free time, I enjoy painting, running, reading, and discovering new ideas.<
             <label>email:</label>
             <input type="email">
             <br>
-            <label>message:</label> 
+            <label>message:</label>
             <textarea id="message"></textarea>
         </form>
         <p>2026 About me project. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
