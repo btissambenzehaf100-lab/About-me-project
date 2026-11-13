@@ -103,27 +103,63 @@ li::before {
     color: #4b342c;
 }
 
-#weekly-schedule{
+#weekly-schedule {
     background-color: #ebe1d1;
     width: 100%;
-    padding: 0% 0% 5% 20%;
-    border-radius: 0% 0% 0% 50%;
+    padding: 0% 0% 5% 0%;
 }
-.h2-3{
+
+.h2-3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
     color: #c38380;
     padding: 0px 25px 25px 25px;
     margin: 0px 0px 0px 50px;
 }
-.schedule-paragraph{
-   padding: 0px 0px 0px 50px; 
-   margin: 0px 25px 25px 25px;
+
+.schedule-paragraph {
+    padding: 0px 0px 0px 50px;
+    margin: 0px 25px 25px 25px;
 }
-table{
+
+table {
     width: 100%;
     padding: 0px 0px 0px 20px;
     margin: 0px 0px 0px 50px;
 }
 
+footer {
+    background-color: #ebe1d1;
+    padding: 0% 0% 5% 5%;
+}
 
+.h2-4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #c38380;
+    margin: 0px 0px 20px 0px;
+}
+
+form {
+    border-radius: 50px;
+}
+
+form input {
+    width: 25%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.name {
+    margin: 10px;
+}
+
+.email {
+    margin: 10px;
+}
+
+.msg {
+    margin: 10px;
+}
