@@ -23,6 +23,7 @@ nav a:hover {
     padding: 5px;
     border-radius: 20px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 nav {
@@ -58,7 +59,7 @@ body {
     font-size: 1.5rem;
     margin-bottom: 15px;
     color: #c38380;
-    margin-left: var 25px;
+    margin-left: 0px;
 }
 
 .pic1 {
@@ -72,72 +73,90 @@ body {
 
 .h2-2 {
     font-size: 1.5rem;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     color: #c38380;
     margin-left: 25px;
 }
 
 #list-of-hobbies {
     width: 100%;
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     box-sizing: border-box;
     background-color: #ebe1d1;
     border-radius: 50% 0% 0% 0%;
-    padding: 2.5% 20% 2.5% 20%;
+    padding: 2.5% 15% 2.5% 20%;
 }
 
 .hobbies-paragraph {
     padding: 0px 0px 0px 25px;
+    margin: 0px 0px;
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
-    padding-left: 25px;
+    gap: 20px;
+    flex-wrap: wrap;
     list-style: none;
+    padding: 0px 15px;
 }
 
 li::before {
     content: "✿";
     margin-right: 12px;
     color: #4b342c;
+    padding: 0px 10px;
 }
 
 #weekly-schedule {
     background-color: #ebe1d1;
     width: 100%;
-    padding: 0% 0% 5% 0%;
+    box-sizing: border-box;
+    padding: 0% 10% 5% 15.5%;
+
 }
 
 .h2-3 {
     font-size: 1.5rem;
     margin-bottom: 15px;
     color: #c38380;
-    padding: 0px 25px 25px 25px;
-    margin: 0px 0px 0px 50px;
+    padding: 0px 25px 0px 25px;
+    margin: 0px 0px 0px 58px;
 }
 
 .schedule-paragraph {
-    padding: 0px 0px 0px 50px;
-    margin: 0px 25px 25px 25px;
+    padding: 0px 0px 0px 25px;
+    margin: 0px 25px 0px 58px;
 }
 
-table {
-    width: 100%;
-    padding: 0px 0px 0px 20px;
-    margin: 0px 0px 0px 50px;
+#weekly-schedule table {
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+    margin: 0px auto;
+    margin-left: 68px;
+    border-collapse: collapse;
+}
+
+#weekly-schedule td {
+    padding: 15px;
+    border-bottom: 1px solid #4b342c;
+}
+
+tr,
+td {
+    padding: 5px 25px;
+    margin-left: 50%;
 }
 
 footer {
     background-color: #ebe1d1;
-    padding: 0% 0% 5% 5%;
+    padding: 0% 0% 2.5% 21.5%;
 }
 
 .h2-4 {
     font-size: 1.5rem;
     margin-bottom: 15px;
     color: #c38380;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
 }
 
 form {
@@ -148,18 +167,63 @@ form input {
     width: 25%;
     padding: 12px;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: white;
+    outline: none;
+    height: 10px;
 }
 
-.name {
-    margin: 10px;
-}
-
-.email {
-    margin: 10px;
+.msg textarea {
+    width: 25%;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    outline: none;
+    height: 30px;
 }
 
 .msg {
-    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    position: static;
+    background-color: #dbbfad;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 1rem;
+    color: #4b342c;
+    transition: 1s;
+    margin-left: -35px;
+}
+
+button:hover {
+    background-color: #c38380;
+    padding: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+.name,
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pic2{
+    position: relative;
+}
+.img-pic2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 18.5%;
+    object-fit: cover;
+    pointer-events: none;
 }

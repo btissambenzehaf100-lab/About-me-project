@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 
 <body>
     <!--HEADER-->
@@ -24,6 +24,7 @@
     </header>
     <main>
         <!--SHORT BIO-->
+
         <section id="short-bio">
             <div class="short-bio-text">
                 <h2 class="h2-1">short bio</h2>
@@ -42,71 +43,78 @@
             <img class="pic1" src="images/pic 1.jpeg" alt="my photo" />
         </section>
         <!--hobbies-->
-        <section id="list-of-hobbies">
-            <h2 class="h2-2">list of hobbies</h2>
-            <p class="hobbies-paragraph">Here are some activities I enjoy in my free time</p>
-            <ul>
-                <li>painting</li>
-                <li>drawing</li>
-                <li>running</li>
-                <li>baking</li>
-            </ul>
-        </section>
-        <section id="weekly-schedule">
-            <h2 class="h2-3">weekly schedule</h2>
-            <p class="schedule-paragraph">Here is a sample of my weekly schedule:</p>
-            <table>
-                <tr>
-                    <td>Monday</td>
-                    <td>Work, painting, and reading</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>Work, running, and baking</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>Work, drawing, and personal development</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>Work, painting, and reading</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>Work, running, and socializing with friends</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>Personal projects, art exhibitions, and outdoor activities</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>Relaxation, family time, and self-care activities</td>
-                </tr>
-            </table>
-        </section>
-    </main>
+        <div class="pic2">
+            <section id="list-of-hobbies">
+                <h2 class="h2-2">list of hobbies</h2>
+                <p class="hobbies-paragraph">Here are some activities I enjoy in my free time</p>
+                <ul>
+                    <li>painting</li>
+                    <li>drawing</li>
+                    <li>running</li>
+                    <li>baking</li>
+                </ul>
+            </section>
+            <!--weekly schedule-->
+            <section id="weekly-schedule">
+                <h2 class="h2-3">weekly schedule</h2>
+                <p class="schedule-paragraph">Here is an example of my weekly schedules:</p>
+                <table>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Work, painting</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>running, rest day</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Work, drawing</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Work, self developement</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>socializing with friends</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Personal projects, and outdoor activities</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>self-care activities</td>
+                    </tr>
+                </table>
+            </section>
+    
+    <!--footer-->
     <footer>
         <h2 class="h2-4">Contact</h2>
         <form>
             <div class="name">
-            <label>Name:</label>
-            <input type="text">
+                <label>Name:</label>
+                <input placeholder="enter your name" type="text">
             </div>
             <br>
             <div class="email">
-            <label>Email:</label>
-            <input type="email">
+                <label>Email:</label>
+                <input placeholder="enter your email" type="email">
             </div>
             <br>
             <div class="msg">
-            <label>Leave your encouragement here:</label>
-            <textarea id="message"></textarea>
+                <label>Leave your encouragement here:</label>
+                <textarea placeholder="start typing" id="message"></textarea>
+                <button>send</button>
             </div>
-            <button>send</button>
         </form>
     </footer>
+    <img class="img-pic2" src="images/pic2.jpg" alt="decoration pic" />
+    </div>
+</main>
 </body>
+
 
 </html>
